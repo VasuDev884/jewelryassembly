@@ -1,0 +1,513 @@
+[
+  {
+    "id": 1776928556590,
+    "fullName": "Vasu Dev",
+    "email": "DAVSU696@GMAIL.COM",
+    "phone": "08427684526",
+    "serviceNeeded": "gold",
+    "productType": "jullery",
+    "estimatedQuantity": "2",
+    "timeline": "3",
+    "budgetRange": "12222",
+    "projectDetails": "aaaaaaaaaaa",
+    "file": {
+      "originalname": "7b4e9ed2-6412-4d80-acb5-7a10e7854f7cimage2.jpg",
+      "filename": "1776928556586-7b4e9ed2-6412-4d80-acb5-7a10e7854f7cimage2.jpg",
+      "path": "C:\\Users\\asus\\Downloads\\jewelryassembly-quote-backend\\jewelryassembly-quote-backend\\uploads\\1776928556586-7b4e9ed2-6412-4d80-acb5-7a10e7854f7cimage2.jpg"
+    },
+    "createdAt": "2026-04-23T07:15:56.590Z"
+  },
+  {
+    "id": 1776928678006,
+    "fullName": "Vasu Dev",
+    "companyName": "UpMyRanks",
+    "email": "VASUDEV.8847@GMAIL.COM",
+    "phone": "08847279783",
+    "serviceNeeded": "gold",
+    "productType": "jullery",
+    "estimatedQuantity": "2",
+    "timeline": "3",
+    "budgetRange": "12222",
+    "projectDetails": "aaaaaa",
+    "file": {
+      "originalname": "7f115b94-ee18-428c-9454-dceb95ede7c3image10-767x1024.jpg",
+      "filename": "1776928677999-7f115b94-ee18-428c-9454-dceb95ede7c3image10-767x1024.jpg",
+      "path": "C:\\Users\\asus\\Downloads\\jewelryassembly-quote-backend\\jewelryassembly-quote-backend\\uploads\\1776928677999-7f115b94-ee18-428c-9454-dceb95ede7c3image10-767x1024.jpg"
+    },
+    "createdAt": "2026-04-23T07:17:58.006Z"
+  },
+  {
+    "id": 1776929678682,
+    "fullName": "Vasu Dev",
+    "companyName": "UpMyRanks",
+    "email": "VASUDEV.8847@GMAIL.COM",
+    "phone": "08847279783",
+    "serviceNeeded": "gold",
+    "productType": "jullery",
+    "estimatedQuantity": "2",
+    "timeline": "3",
+    "budgetRange": "12222",
+    "projectDetails": "aaaaaaaaaa",
+    "file": {
+      "originalname": "7f115b94-ee18-428c-9454-dceb95ede7c3image10-767x1024.jpg",
+      "filename": "1776929678678-7f115b94-ee18-428c-9454-dceb95ede7c3image10-767x1024.jpg",
+      "path": "C:\\Users\\asus\\Downloads\\jewelryassembly-quote-backend\\jewelryassembly-quote-backend\\uploads\\1776929678678-7f115b94-ee18-428c-9454-dceb95ede7c3image10-767x1024.jpg"
+    },
+    "createdAt": "2026-04-23T07:34:38.682Z"
+  },
+  {
+    "id": 1776929924714,
+    "fullName": "Vasu Dev",
+    "companyName": "UpMyRanks",
+    "email": "VASUDEV.8847@GMAIL.COM",
+    "phone": "8847279783",
+    "serviceNeeded": "gold",
+    "productType": "aa",
+    "estimatedQuantity": "2",
+    "timeline": "3",
+    "budgetRange": "12222",
+    "projectDetails": "aaaaaa",
+    "file": {
+      "originalname": "062cb4f9-6b5c-4765-8085-bc419316e239image7.jpg",
+      "filename": "1776929924710-062cb4f9-6b5c-4765-8085-bc419316e239image7.jpg",
+      "path": "C:\\Users\\asus\\Downloads\\jewelryassembly-quote-backend\\jewelryassembly-quote-backend\\uploads\\1776929924710-062cb4f9-6b5c-4765-8085-bc419316e239image7.jpg",
+      "mimetype": "image/jpeg",
+      "size": 27606
+    },
+    "createdAt": "2026-04-23T07:38:44.714Z"
+  },
+  {
+    "id": 1776929926051,
+    "fullName": "Vasu Dev",
+    "companyName": "UpMyRanks",
+    "email": "VASUDEV.8847@GMAIL.COM",
+    "phone": "8847279783",
+    "serviceNeeded": "gold",
+    "productType": "aa",
+    "estimatedQuantity": "2",
+    "timeline": "3",
+    "budgetRange": "12222",
+    "projectDetails": "aaaaaa",
+    "file": {
+      "originalname": "062cb4f9-6b5c-4765-8085-bc419316e239image7.jpg",
+      "filename": "1776929926049-062cb4f9-6b5c-4765-8085-bc419316e239image7.jpg",
+      "path": "C:\\Users\\asus\\Downloads\\jewelryassembly-quote-backend\\jewelryassembly-quote-backend\\uploads\\1776929926049-062cb4f9-6b5c-4765-8085-bc419316e239image7.jpg",
+      "mimetype": "image/jpeg",
+      "size": 27606
+    },
+    "createdAt": "2026-04-23T07:38:46.051Z"
+  },
+  {
+    "id": 1776930046146,
+    "fullName": "Vasu Dev",
+    "companyName": "UpMyRanks",
+    "email": "VASUDEV.8847@GMAIL.COM",
+    "phone": "08847279783",
+    "serviceNeeded": "gold",
+    "productType": "jullery",
+    "estimatedQuantity": "2",
+    "timeline": "3",
+    "budgetRange": "12222",
+    "projectDetails": "aaaaaa",
+    "file": {
+      "originalname": "fb3abc32-a2e4-4e82-9207-8159ebf3b722image5-resized.jpg",
+      "filename": "1776930046139-fb3abc32-a2e4-4e82-9207-8159ebf3b722image5-resized.jpg",
+      "path": "C:\\Users\\asus\\Downloads\\jewelryassembly-quote-backend\\jewelryassembly-quote-backend\\uploads\\1776930046139-fb3abc32-a2e4-4e82-9207-8159ebf3b722image5-resized.jpg"
+    },
+    "createdAt": "2026-04-23T07:40:46.146Z"
+  },
+  {
+    "id": 1776930048026,
+    "fullName": "Vasu Dev",
+    "companyName": "UpMyRanks",
+    "email": "VASUDEV.8847@GMAIL.COM",
+    "phone": "08847279783",
+    "serviceNeeded": "gold",
+    "productType": "jullery",
+    "estimatedQuantity": "2",
+    "timeline": "3",
+    "budgetRange": "12222",
+    "projectDetails": "aaaaaa",
+    "file": {
+      "originalname": "fb3abc32-a2e4-4e82-9207-8159ebf3b722image5-resized.jpg",
+      "filename": "1776930047955-fb3abc32-a2e4-4e82-9207-8159ebf3b722image5-resized.jpg",
+      "path": "C:\\Users\\asus\\Downloads\\jewelryassembly-quote-backend\\jewelryassembly-quote-backend\\uploads\\1776930047955-fb3abc32-a2e4-4e82-9207-8159ebf3b722image5-resized.jpg"
+    },
+    "createdAt": "2026-04-23T07:40:48.026Z"
+  },
+  {
+    "id": 1776930073486,
+    "fullName": "Vasu Dev",
+    "companyName": "UpMyRanks",
+    "email": "VASUDEV.8847@GMAIL.COM",
+    "phone": "08847279783",
+    "serviceNeeded": "gold",
+    "productType": "jullery",
+    "estimatedQuantity": "2",
+    "timeline": "3",
+    "budgetRange": "12222",
+    "projectDetails": "aaaaa",
+    "file": {
+      "originalname": "92d5a927-b44e-4e63-a945-ccd4dbb854c9image9.jpg",
+      "filename": "1776930073483-92d5a927-b44e-4e63-a945-ccd4dbb854c9image9.jpg",
+      "path": "C:\\Users\\asus\\Downloads\\jewelryassembly-quote-backend\\jewelryassembly-quote-backend\\uploads\\1776930073483-92d5a927-b44e-4e63-a945-ccd4dbb854c9image9.jpg"
+    },
+    "createdAt": "2026-04-23T07:41:13.486Z"
+  },
+  {
+    "id": 1776930199069,
+    "fullName": "Vasu Dev",
+    "companyName": "UpMyRanks",
+    "email": "VASUDEV.8847@GMAIL.COM",
+    "phone": "08847279783",
+    "serviceNeeded": "gold",
+    "productType": "jullery",
+    "estimatedQuantity": "2",
+    "timeline": "3",
+    "budgetRange": "12222",
+    "projectDetails": "aaaaaaaaaa",
+    "file": {
+      "originalname": "062cb4f9-6b5c-4765-8085-bc419316e239image7.jpg",
+      "filename": "1776930199064-062cb4f9-6b5c-4765-8085-bc419316e239image7.jpg",
+      "path": "C:\\Users\\asus\\Downloads\\jewelryassembly-quote-backend\\jewelryassembly-quote-backend\\uploads\\1776930199064-062cb4f9-6b5c-4765-8085-bc419316e239image7.jpg",
+      "mimetype": "image/jpeg",
+      "size": 27606
+    },
+    "createdAt": "2026-04-23T07:43:19.069Z"
+  },
+  {
+    "id": 1776930229916,
+    "fullName": "Vasu Dev",
+    "companyName": "UpMyRanks",
+    "email": "VASUDEV.8847@GMAIL.COM",
+    "phone": "08847279783",
+    "serviceNeeded": "gold",
+    "productType": "jullery",
+    "estimatedQuantity": "2",
+    "timeline": "3",
+    "budgetRange": "12222",
+    "projectDetails": "aaaaaaaaaa",
+    "file": {
+      "originalname": "062cb4f9-6b5c-4765-8085-bc419316e239image7.jpg",
+      "filename": "1776930229912-062cb4f9-6b5c-4765-8085-bc419316e239image7.jpg",
+      "path": "C:\\Users\\asus\\Downloads\\jewelryassembly-quote-backend\\jewelryassembly-quote-backend\\uploads\\1776930229912-062cb4f9-6b5c-4765-8085-bc419316e239image7.jpg",
+      "mimetype": "image/jpeg",
+      "size": 27606
+    },
+    "createdAt": "2026-04-23T07:43:49.916Z"
+  },
+  {
+    "id": 1776930230695,
+    "fullName": "Vasu Dev",
+    "companyName": "UpMyRanks",
+    "email": "VASUDEV.8847@GMAIL.COM",
+    "phone": "08847279783",
+    "serviceNeeded": "gold",
+    "productType": "jullery",
+    "estimatedQuantity": "2",
+    "timeline": "3",
+    "budgetRange": "12222",
+    "projectDetails": "aaaaaaaaaa",
+    "file": {
+      "originalname": "062cb4f9-6b5c-4765-8085-bc419316e239image7.jpg",
+      "filename": "1776930230694-062cb4f9-6b5c-4765-8085-bc419316e239image7.jpg",
+      "path": "C:\\Users\\asus\\Downloads\\jewelryassembly-quote-backend\\jewelryassembly-quote-backend\\uploads\\1776930230694-062cb4f9-6b5c-4765-8085-bc419316e239image7.jpg",
+      "mimetype": "image/jpeg",
+      "size": 27606
+    },
+    "createdAt": "2026-04-23T07:43:50.695Z"
+  },
+  {
+    "id": 1776930231318,
+    "fullName": "Vasu Dev",
+    "companyName": "UpMyRanks",
+    "email": "VASUDEV.8847@GMAIL.COM",
+    "phone": "08847279783",
+    "serviceNeeded": "gold",
+    "productType": "jullery",
+    "estimatedQuantity": "2",
+    "timeline": "3",
+    "budgetRange": "12222",
+    "projectDetails": "aaaaaaaaaa",
+    "file": {
+      "originalname": "062cb4f9-6b5c-4765-8085-bc419316e239image7.jpg",
+      "filename": "1776930231316-062cb4f9-6b5c-4765-8085-bc419316e239image7.jpg",
+      "path": "C:\\Users\\asus\\Downloads\\jewelryassembly-quote-backend\\jewelryassembly-quote-backend\\uploads\\1776930231316-062cb4f9-6b5c-4765-8085-bc419316e239image7.jpg",
+      "mimetype": "image/jpeg",
+      "size": 27606
+    },
+    "createdAt": "2026-04-23T07:43:51.318Z"
+  },
+  {
+    "id": 1776930231809,
+    "fullName": "Vasu Dev",
+    "companyName": "UpMyRanks",
+    "email": "VASUDEV.8847@GMAIL.COM",
+    "phone": "08847279783",
+    "serviceNeeded": "gold",
+    "productType": "jullery",
+    "estimatedQuantity": "2",
+    "timeline": "3",
+    "budgetRange": "12222",
+    "projectDetails": "aaaaaaaaaa",
+    "file": {
+      "originalname": "062cb4f9-6b5c-4765-8085-bc419316e239image7.jpg",
+      "filename": "1776930231807-062cb4f9-6b5c-4765-8085-bc419316e239image7.jpg",
+      "path": "C:\\Users\\asus\\Downloads\\jewelryassembly-quote-backend\\jewelryassembly-quote-backend\\uploads\\1776930231807-062cb4f9-6b5c-4765-8085-bc419316e239image7.jpg",
+      "mimetype": "image/jpeg",
+      "size": 27606
+    },
+    "createdAt": "2026-04-23T07:43:51.809Z"
+  },
+  {
+    "id": 1776930238847,
+    "fullName": "Vasu Dev",
+    "companyName": "UpMyRanks",
+    "email": "VASUDEV.8847@GMAIL.COM",
+    "phone": "08847279783",
+    "serviceNeeded": "gold",
+    "productType": "jullery",
+    "estimatedQuantity": "2",
+    "timeline": "3",
+    "budgetRange": "12222",
+    "projectDetails": "aaaaaaaaaa",
+    "file": {
+      "originalname": "062cb4f9-6b5c-4765-8085-bc419316e239image7.jpg",
+      "filename": "1776930238846-062cb4f9-6b5c-4765-8085-bc419316e239image7.jpg",
+      "path": "C:\\Users\\asus\\Downloads\\jewelryassembly-quote-backend\\jewelryassembly-quote-backend\\uploads\\1776930238846-062cb4f9-6b5c-4765-8085-bc419316e239image7.jpg",
+      "mimetype": "image/jpeg",
+      "size": 27606
+    },
+    "createdAt": "2026-04-23T07:43:58.847Z"
+  },
+  {
+    "id": 1776930409593,
+    "fullName": "Vasu Dev",
+    "companyName": "UpMyRanks",
+    "email": "VASUDEV.8847@GMAIL.COM",
+    "phone": "08847279783",
+    "serviceNeeded": "gold",
+    "productType": "jullery",
+    "estimatedQuantity": "2",
+    "timeline": "3",
+    "budgetRange": "12222",
+    "projectDetails": "aaaaaaaaaa",
+    "file": {
+      "originalname": "062cb4f9-6b5c-4765-8085-bc419316e239image7.jpg",
+      "filename": "1776930409592-062cb4f9-6b5c-4765-8085-bc419316e239image7.jpg",
+      "path": "C:\\Users\\asus\\Downloads\\jewelryassembly-quote-backend\\jewelryassembly-quote-backend\\uploads\\1776930409592-062cb4f9-6b5c-4765-8085-bc419316e239image7.jpg",
+      "mimetype": "image/jpeg",
+      "size": 27606
+    },
+    "createdAt": "2026-04-23T07:46:49.593Z"
+  },
+  {
+    "id": 1776930430878,
+    "fullName": "Vasu Dev",
+    "companyName": "UpMyRanks",
+    "email": "VASUDEV.8847@GMAIL.COM",
+    "phone": "08847279783",
+    "serviceNeeded": "gold",
+    "productType": "aa",
+    "estimatedQuantity": "2",
+    "timeline": "3",
+    "budgetRange": "12222",
+    "projectDetails": "aaaaaaaaaaa",
+    "file": {
+      "originalname": "95da1d3e-a5cc-414e-ae62-07bf5eeebafbimage3-resized-1024x1024.jpg",
+      "filename": "1776930430871-95da1d3e-a5cc-414e-ae62-07bf5eeebafbimage3-resized-1024x1024.jpg",
+      "path": "C:\\Users\\asus\\Downloads\\jewelryassembly-quote-backend\\jewelryassembly-quote-backend\\uploads\\1776930430871-95da1d3e-a5cc-414e-ae62-07bf5eeebafbimage3-resized-1024x1024.jpg",
+      "mimetype": "image/jpeg",
+      "size": 190863
+    },
+    "createdAt": "2026-04-23T07:47:10.878Z"
+  },
+  {
+    "id": 1776930453691,
+    "fullName": "Vasu Dev",
+    "companyName": "UpMyRanks",
+    "email": "VASUDEV.8847@GMAIL.COM",
+    "phone": "08847279783",
+    "serviceNeeded": "gold",
+    "productType": "aa",
+    "estimatedQuantity": "2",
+    "timeline": "3",
+    "budgetRange": "12222",
+    "projectDetails": "aaaaaaaaaaa",
+    "file": {
+      "originalname": "95da1d3e-a5cc-414e-ae62-07bf5eeebafbimage3-resized-1024x1024.jpg",
+      "filename": "1776930453685-95da1d3e-a5cc-414e-ae62-07bf5eeebafbimage3-resized-1024x1024.jpg",
+      "path": "C:\\Users\\asus\\Downloads\\jewelryassembly-quote-backend\\jewelryassembly-quote-backend\\uploads\\1776930453685-95da1d3e-a5cc-414e-ae62-07bf5eeebafbimage3-resized-1024x1024.jpg",
+      "mimetype": "image/jpeg",
+      "size": 190863
+    },
+    "createdAt": "2026-04-23T07:47:33.692Z"
+  },
+  {
+    "id": 1776930474958,
+    "fullName": "Vasu Dev",
+    "email": "DAVSU696@GMAIL.COM",
+    "phone": "08427684526",
+    "serviceNeeded": "gold",
+    "productType": "jullery",
+    "estimatedQuantity": "2",
+    "timeline": "3",
+    "budgetRange": "12222",
+    "projectDetails": "aaaaaa",
+    "file": {
+      "originalname": "20250312_150200.jpg",
+      "filename": "1776930474840-20250312_150200.jpg",
+      "path": "C:\\Users\\asus\\Downloads\\jewelryassembly-quote-backend\\jewelryassembly-quote-backend\\uploads\\1776930474840-20250312_150200.jpg",
+      "mimetype": "image/jpeg",
+      "size": 7427628
+    },
+    "createdAt": "2026-04-23T07:47:54.958Z"
+  },
+  {
+    "id": 1776930627405,
+    "fullName": "Vasu Dev",
+    "companyName": "UpMyRanks",
+    "email": "VASUDEV.8847@GMAIL.COM",
+    "phone": "08847279783",
+    "serviceNeeded": "gold",
+    "productType": "jullery",
+    "estimatedQuantity": "2",
+    "timeline": "3",
+    "budgetRange": "12222",
+    "projectDetails": "qqqqqqqq",
+    "file": {
+      "originalname": "92d5a927-b44e-4e63-a945-ccd4dbb854c9image9.jpg",
+      "filename": "1776930627402-92d5a927-b44e-4e63-a945-ccd4dbb854c9image9.jpg",
+      "path": "C:\\Users\\asus\\Downloads\\jewelryassembly-quote-backend\\jewelryassembly-quote-backend\\uploads\\1776930627402-92d5a927-b44e-4e63-a945-ccd4dbb854c9image9.jpg",
+      "mimetype": "image/jpeg",
+      "size": 51666
+    },
+    "createdAt": "2026-04-23T07:50:27.405Z"
+  },
+  {
+    "id": 1776930733139,
+    "fullName": "Vasu Dev",
+    "companyName": "UpMyRanks",
+    "email": "DAVSU696@GMAIL.COM",
+    "phone": "08847279783",
+    "serviceNeeded": "gold",
+    "productType": "jullery",
+    "estimatedQuantity": "2",
+    "timeline": "3",
+    "budgetRange": "12222",
+    "projectDetails": "aaaaaaaa",
+    "file": {
+      "originalname": "95da1d3e-a5cc-414e-ae62-07bf5eeebafbimage3-resized-1024x1024.jpg",
+      "filename": "1776930733133-95da1d3e-a5cc-414e-ae62-07bf5eeebafbimage3-resized-1024x1024.jpg",
+      "path": "C:\\Users\\asus\\Downloads\\jewelryassembly-quote-backend\\jewelryassembly-quote-backend\\uploads\\1776930733133-95da1d3e-a5cc-414e-ae62-07bf5eeebafbimage3-resized-1024x1024.jpg",
+      "mimetype": "image/jpeg",
+      "size": 190863
+    },
+    "createdAt": "2026-04-23T07:52:13.139Z"
+  },
+  {
+    "id": 1776931034891,
+    "fullName": "Vasu Dev",
+    "companyName": "UpMyRanks",
+    "email": "VASUDEV.8847@GMAIL.COM",
+    "phone": "08847279783",
+    "serviceNeeded": "gold",
+    "productType": "jullery",
+    "estimatedQuantity": "2",
+    "timeline": "3",
+    "budgetRange": "12222",
+    "projectDetails": "aaaaaaaa",
+    "file": {
+      "originalname": "e272a05f-1d8d-491a-81cd-2b1965942161image4.jpg",
+      "filename": "1776931034886-e272a05f-1d8d-491a-81cd-2b1965942161image4.jpg",
+      "path": "C:\\Users\\asus\\Downloads\\jewelryassembly-quote-backend\\jewelryassembly-quote-backend\\uploads\\1776931034886-e272a05f-1d8d-491a-81cd-2b1965942161image4.jpg",
+      "mimetype": "image/jpeg",
+      "size": 26027
+    },
+    "createdAt": "2026-04-23T07:57:14.891Z"
+  },
+  {
+    "id": 1776931102454,
+    "fullName": "Vasu Dev",
+    "companyName": "UpMyRanks",
+    "email": "VASUDEV.8847@GMAIL.COM",
+    "phone": "08847279783",
+    "serviceNeeded": "gold",
+    "productType": "jullery",
+    "estimatedQuantity": "2",
+    "timeline": "3",
+    "budgetRange": "12222",
+    "projectDetails": "aaaaaaaaaa",
+    "file": {
+      "originalname": "f262a970-3c77-4ce4-8e9d-2ce097ba9297image6.jpg",
+      "filename": "1776931102449-f262a970-3c77-4ce4-8e9d-2ce097ba9297image6.jpg",
+      "path": "C:\\Users\\asus\\Downloads\\jewelryassembly-quote-backend\\jewelryassembly-quote-backend\\uploads\\1776931102449-f262a970-3c77-4ce4-8e9d-2ce097ba9297image6.jpg",
+      "mimetype": "image/jpeg",
+      "size": 43427
+    },
+    "createdAt": "2026-04-23T07:58:22.454Z"
+  },
+  {
+    "id": 1776931138695,
+    "fullName": "Vasu Dev",
+    "companyName": "UpMyRanks",
+    "email": "VASUDEV.8847@GMAIL.COM",
+    "phone": "08847279783",
+    "serviceNeeded": "gold",
+    "productType": "jullery",
+    "estimatedQuantity": "2",
+    "timeline": "3",
+    "budgetRange": "12222",
+    "projectDetails": "aaaaaaaaaa",
+    "file": {
+      "originalname": "20250701_202826.heic",
+      "filename": "1776931138661-20250701_202826.heic",
+      "path": "C:\\Users\\asus\\Downloads\\jewelryassembly-quote-backend\\jewelryassembly-quote-backend\\uploads\\1776931138661-20250701_202826.heic",
+      "mimetype": "application/octet-stream",
+      "size": 2109109
+    },
+    "createdAt": "2026-04-23T07:58:58.695Z"
+  },
+  {
+    "id": 1776931219212,
+    "fullName": "Vasu Dev",
+    "companyName": "UpMyRanks",
+    "email": "VASUDEV.696@GMAIL.COM",
+    "phone": "08847279783",
+    "serviceNeeded": "gold",
+    "productType": "jullery",
+    "estimatedQuantity": "2",
+    "timeline": "3",
+    "budgetRange": "12222",
+    "projectDetails": "aaaaaaaaaaaa",
+    "file": {
+      "originalname": "2874bf79-c2d6-4a62-b4be-86f11c68a2ebimage8.jpg",
+      "filename": "1776931219208-2874bf79-c2d6-4a62-b4be-86f11c68a2ebimage8.jpg",
+      "path": "C:\\Users\\asus\\Downloads\\jewelryassembly-quote-backend\\jewelryassembly-quote-backend\\uploads\\1776931219208-2874bf79-c2d6-4a62-b4be-86f11c68a2ebimage8.jpg",
+      "mimetype": "image/jpeg",
+      "size": 37426
+    },
+    "createdAt": "2026-04-23T08:00:19.212Z"
+  },
+  {
+    "id": 1776931509366,
+    "fullName": "Vasu Dev",
+    "companyName": "UpMyRanks",
+    "email": "VASUDEV.8847@GMAIL.COM",
+    "phone": "08847279783",
+    "serviceNeeded": "gold",
+    "productType": "jullery",
+    "estimatedQuantity": "2",
+    "timeline": "3",
+    "budgetRange": "12222",
+    "projectDetails": "aaaaaaaaaa",
+    "file": {
+      "originalname": "062cb4f9-6b5c-4765-8085-bc419316e239image7.jpg",
+      "filename": "1776931509361-062cb4f9-6b5c-4765-8085-bc419316e239image7.jpg",
+      "path": "D:\\freelance\\Jewelry Assembly Website\\jewelryassembly-quote-backend\\uploads\\1776931509361-062cb4f9-6b5c-4765-8085-bc419316e239image7.jpg",
+      "mimetype": "image/jpeg",
+      "size": 27606
+    },
+    "createdAt": "2026-04-23T08:05:09.366Z"
+  }
+]
