@@ -1,4 +1,5 @@
 import { useRef, useState } from "react";
+import axios from "axios";
 import { PageShell, SectionHeading, Reveal } from "../components/ui";
 import { techPackTips, resourcePanels } from "../components/data";
 
@@ -65,32 +66,22 @@ export default function QuotePage() {
         }
       });
 
-      const response = await fetch(`${API_BASE_URL}/api/quote`, {
-        method: "POST",
-        body: payload,
+      const response = await axios.post(`${API_BASE_URL}/api/quote`, payload, {
+        headers: {
+          "Content-Type": "multipart/form-data",
+        },
       });
 
-      const contentType = response.headers.get("content-type") || "";
-      let result;
-
-      if (contentType.includes("application/json")) {
-        result = await response.json();
-      } else {
-        const text = await response.text();
-        throw new Error(text || "Backend did not return JSON");
-      }
-
-      if (!response.ok) {
-        throw new Error(result.message || "Failed to submit quote request");
-      }
-
+      console.log("Quote submitted:", response.data);
       setSubmitted(true);
       resetForm();
       setTimeout(() => setSubmitted(false), 4000);
     } catch (error) {
       console.error("Quote form submit error:", error);
+
       setErrorMessage(
-        error.message ||
+        error.response?.data?.message ||
+          error.message ||
           "Request failed. Check backend deployment and CORS settings."
       );
     } finally {

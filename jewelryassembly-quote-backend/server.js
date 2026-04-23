@@ -125,44 +125,54 @@ app.post('/api/quote', upload.single('file'), async (req, res) => {
     existingQuotes.push(newQuote);
     fs.writeFileSync(quotesFile, JSON.stringify(existingQuotes, null, 2));
 
-    const mailOptions = {
-      from: `"Jewelry Assembly Website" <${process.env.SMTP_FROM}>`,
-      to: process.env.QUOTE_TO_EMAIL,
-      subject: `New Quote Request from ${fullName}`,
-      text: [
-        `Full Name: ${fullName || ''}`,
-        `Company: ${companyName || ''}`,
-        `Email: ${email || ''}`,
-        `Phone: ${phone || ''}`,
-        `Service Needed: ${serviceNeeded || ''}`,
-        `Product Type: ${productType || ''}`,
-        `Quantity: ${estimatedQuantity || ''}`,
-        `Timeline: ${timeline || ''}`,
-        `Budget: ${budgetRange || ''}`,
-        `Details: ${projectDetails || ''}`,
-        `File: ${req.file ? req.file.originalname : 'No file uploaded'}`,
-      ].join('\n'),
-    };
+    try {
+      const mailOptions = {
+        from: `"Jewelry Assembly Website" <${process.env.SMTP_FROM}>`,
+        to: process.env.QUOTE_TO_EMAIL,
+        subject: `New Quote Request from ${fullName}`,
+        text: [
+          `Full Name: ${fullName || ''}`,
+          `Company: ${companyName || ''}`,
+          `Email: ${email || ''}`,
+          `Phone: ${phone || ''}`,
+          `Service Needed: ${serviceNeeded || ''}`,
+          `Product Type: ${productType || ''}`,
+          `Quantity: ${estimatedQuantity || ''}`,
+          `Timeline: ${timeline || ''}`,
+          `Budget: ${budgetRange || ''}`,
+          `Details: ${projectDetails || ''}`,
+          `File: ${req.file ? req.file.originalname : 'No file uploaded'}`,
+        ].join('\n'),
+      };
 
-    if (req.file) {
-      mailOptions.attachments = [
-        {
-          filename: req.file.originalname,
-          path: req.file.path,
-        },
-      ];
+      if (req.file) {
+        mailOptions.attachments = [
+          {
+            filename: req.file.originalname,
+            path: req.file.path,
+          },
+        ];
+      }
+
+      const info = await transporter.sendMail(mailOptions);
+      console.log('Email sent:', info.response);
+
+      return res.status(200).json({
+        message: 'Quote request submitted successfully and email sent.',
+        quote: newQuote,
+      });
+    } catch (mailError) {
+      console.error('MAIL ERROR:', mailError);
+
+      return res.status(200).json({
+        message: 'Quote saved, but email failed to send.',
+        quote: newQuote,
+        emailError: mailError.message,
+      });
     }
-
-    const info = await transporter.sendMail(mailOptions);
-    console.log('Email sent:', info.response);
-
-    res.status(200).json({
-      message: 'Quote request submitted successfully',
-      quote: newQuote,
-    });
   } catch (error) {
     console.error('SERVER ERROR:', error);
-    res.status(500).json({
+    return res.status(500).json({
       message: error.message || 'Internal server error',
     });
   }
