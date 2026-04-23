@@ -1,5 +1,4 @@
 import express from 'express';
-import cors from 'cors';
 import multer from 'multer';
 import fs from 'fs';
 import path from 'path';
@@ -8,11 +7,6 @@ import dotenv from 'dotenv';
 import { fileURLToPath } from 'url';
 
 dotenv.config();
-
-console.log('SMTP_HOST =', process.env.SMTP_HOST);
-console.log('SMTP_PORT =', process.env.SMTP_PORT);
-console.log('SMTP_USER =', process.env.SMTP_USER);
-console.log('QUOTE_TO_EMAIL =', process.env.QUOTE_TO_EMAIL);
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -26,22 +20,22 @@ const allowedOrigins = [
   'https://jewelryassembly.vercel.app',
 ];
 
-const corsOptions = {
-  origin(origin, callback) {
-    if (!origin) return callback(null, true);
+app.use((req, res, next) => {
+  const origin = req.headers.origin;
 
-    if (allowedOrigins.includes(origin)) {
-      return callback(null, true);
-    }
+  if (origin && allowedOrigins.includes(origin)) {
+    res.setHeader('Access-Control-Allow-Origin', origin);
+  }
 
-    return callback(new Error(`CORS blocked for origin: ${origin}`));
-  },
-  methods: ['GET', 'POST', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization'],
-};
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
 
-app.use(cors(corsOptions));
-app.options('*', cors(corsOptions));
+  if (req.method === 'OPTIONS') {
+    return res.sendStatus(200);
+  }
+
+  next();
+});
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -63,6 +57,11 @@ const storage = multer.diskStorage({
 });
 
 const upload = multer({ storage });
+
+console.log('SMTP_HOST =', process.env.SMTP_HOST);
+console.log('SMTP_PORT =', process.env.SMTP_PORT);
+console.log('SMTP_USER =', process.env.SMTP_USER);
+console.log('QUOTE_TO_EMAIL =', process.env.QUOTE_TO_EMAIL);
 
 const transporter = nodemailer.createTransport({
   host: process.env.SMTP_HOST,
@@ -95,7 +94,9 @@ app.post('/api/quote', upload.single('file'), async (req, res) => {
     } = req.body;
 
     if (!fullName || !email) {
-      return res.status(400).json({ message: 'Full name and email are required' });
+      return res.status(400).json({
+        message: 'Full name and email are required',
+      });
     }
 
     const newQuote = {
