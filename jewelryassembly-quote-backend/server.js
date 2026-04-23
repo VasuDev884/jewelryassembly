@@ -20,12 +20,28 @@ const __dirname = path.dirname(__filename);
 const app = express();
 const PORT = Number(process.env.PORT) || 5000;
 
+const allowedOrigins = [
+  'http://localhost:5173',
+  'http://localhost:5176',
+  'https://jewelryassembly.vercel.app',
+];
+
 app.use(
   cors({
-    origin: ['http://localhost:5173', 'http://localhost:5176'],
-    methods: ['GET', 'POST'],
+    origin(origin, callback) {
+      if (!origin) return callback(null, true);
+
+      if (allowedOrigins.includes(origin)) {
+        return callback(null, true);
+      }
+
+      return callback(new Error(`CORS blocked for origin: ${origin}`));
+    },
+    methods: ['GET', 'POST', 'OPTIONS'],
   })
 );
+
+app.options('*', cors());
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
