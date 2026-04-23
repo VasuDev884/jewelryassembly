@@ -16,6 +16,9 @@ const initialFormData = {
   file: null,
 };
 
+const API_BASE_URL =
+  import.meta.env.VITE_API_URL || "https://jewelryassembly.onrender.com";
+
 export default function QuotePage() {
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -62,13 +65,13 @@ export default function QuotePage() {
         }
       });
 
-      const response = await fetch("https://jewelryassembly.onrender.com/api/quote", {
+      const response = await fetch(`${API_BASE_URL}/api/quote`, {
         method: "POST",
         body: payload,
       });
 
       const contentType = response.headers.get("content-type") || "";
-      let result = null;
+      let result;
 
       if (contentType.includes("application/json")) {
         result = await response.json();
@@ -81,13 +84,15 @@ export default function QuotePage() {
         throw new Error(result.message || "Failed to submit quote request");
       }
 
-      console.log("Quote submitted:", result);
       setSubmitted(true);
       resetForm();
       setTimeout(() => setSubmitted(false), 4000);
     } catch (error) {
       console.error("Quote form submit error:", error);
-      setErrorMessage(error.message || "Server error");
+      setErrorMessage(
+        error.message ||
+          "Request failed. Check backend deployment and CORS settings."
+      );
     } finally {
       setLoading(false);
     }
@@ -246,6 +251,7 @@ export default function QuotePage() {
               >
                 {loading ? "Sending..." : "Request a Quote"}
               </button>
+
               {submitted && (
                 <div className="success-card">
                   <h3>✨ Request Received</h3>
