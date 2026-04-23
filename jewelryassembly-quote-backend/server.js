@@ -5,6 +5,7 @@ import path from 'path';
 import nodemailer from 'nodemailer';
 import dotenv from 'dotenv';
 import { fileURLToPath } from 'url';
+import cors from 'cors';
 
 dotenv.config();
 
@@ -14,28 +15,25 @@ const __dirname = path.dirname(__filename);
 const app = express();
 const PORT = Number(process.env.PORT) || 5000;
 
-const allowedOrigins = [
+const whitelist = [
   'http://localhost:5173',
   'http://localhost:5176',
+  "https://jewelryassembly.onrender.com/",
   'https://jewelryassembly.vercel.app',
 ];
 
-app.use((req, res, next) => {
-  const origin = req.headers.origin;
-
-  if (origin && allowedOrigins.includes(origin)) {
-    res.setHeader('Access-Control-Allow-Origin', origin);
-  }
-
-  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
-  res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
-
-  if (req.method === 'OPTIONS') {
-    return res.sendStatus(200);
-  }
-
-  next();
-});
+app.use(cors({
+  origin: (origin, callback) => {
+    if(!origin || whitelist.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
+  allowMethods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  credentials: true,
+  headers: ['Content-Type', 'Authorization'],
+}));
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
