@@ -18,7 +18,7 @@ const initialFormData = {
 };
 
 const API_BASE_URL =
-  import.meta.env.VITE_API_URL || "https://jewelryassembly.onrender.com";
+  import.meta.env.VITE_API_URL || "http://localhost:5000";
 
 export default function QuotePage() {
   const [submitted, setSubmitted] = useState(false);

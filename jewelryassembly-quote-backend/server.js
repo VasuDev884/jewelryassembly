@@ -5,6 +5,7 @@ import path from 'path';
 import nodemailer from 'nodemailer';
 import dotenv from 'dotenv';
 import { fileURLToPath } from 'url';
+import cors from 'cors';
 
 dotenv.config();
 
@@ -20,22 +21,18 @@ const allowedOrigins = [
   'https://jewelryassembly.vercel.app',
 ];
 
-app.use((req, res, next) => {
-  const origin = req.headers.origin;
-
-  if (origin && allowedOrigins.includes(origin)) {
-    res.setHeader('Access-Control-Allow-Origin', origin);
-  }
-
-  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
-  res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
-
-  if (req.method === 'OPTIONS') {
-    return res.sendStatus(200);
-  }
-
-  next();
-});
+app.use(cors({
+  origin: (origin, callback) => {
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
+  withCredentials: true,
+  allowedHeaders: ['Content-Type', "Authorization"],
+  allowMethods: ['GET', 'POST', 'OPTIONS'],
+}));
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
