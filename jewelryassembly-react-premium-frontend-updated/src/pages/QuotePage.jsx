@@ -62,7 +62,7 @@ export default function QuotePage() {
         }
       });
 
-      const response = await fetch("http://localhost:5000/api/quote", {
+      const response = await fetch("https://jewelryassembly.onrender.com/api/quote", {
         method: "POST",
         body: payload,
       });
